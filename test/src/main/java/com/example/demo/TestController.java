@@ -88,7 +88,6 @@ public class TestController {
 	@GetMapping(value = "/show/{id}")
 	public String showDetail(Model model, @PathVariable("id") Long id) {
 		// @PathVariable 어노테이션이 있어야 템플릿(ui)에서 보낸 값을 받아올수 있음.
-
 		// 서비스단(와플곰)한테 요청할게요.
 		Post 상세보기리턴결과 = postService.상세보기구현하기(id);
 		System.out.println(상세보기리턴결과.getFilepath());
