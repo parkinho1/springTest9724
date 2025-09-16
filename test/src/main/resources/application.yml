@@ -1,0 +1,22 @@
+#spring:
+#  # === DATASOURCE SETTINGS ===
+#  datasource:
+#    # H2 데이터베이스 행성으로 가는 길입니다.
+#    url: jdbc:h2:mem:testdb
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    password:
+#
+#  # === JPA & HIBERNATE SETTINGS ===
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        show_sql: true
+#        format_sql: true
+#
+#  # === H2 CONSOLE SETTINGS ===
+#  h2:
+#    console:
+#      enabled: true
